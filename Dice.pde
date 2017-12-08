@@ -22,7 +22,6 @@ void draw() {
   for (int i = 0; i < dice.length; i++) {
     dice[i].roll();
     dice[i].show();
-    println(i);
   }
 }
 
